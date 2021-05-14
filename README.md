@@ -1,1 +1,1 @@
-# -mysql-action-cmd
+# mysql-action-cmd
