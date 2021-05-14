@@ -17,4 +17,5 @@ jobs:
         run: |
           pwd
           mysql --version
+          SHOW DATABASES;
         # cat tests/a.txt
