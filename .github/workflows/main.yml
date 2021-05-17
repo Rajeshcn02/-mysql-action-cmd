@@ -11,11 +11,11 @@ jobs:
       - uses: actions/checkout@v2
     
       - name: Use files from Repo
-        run: cat tests/a.txt
+        run: cat tests/*.sql
         
       - name: Run a multi-line script
         run: |
           pwd
           mysql --version
-          ping 35.188.221.83
+          mysql --host=35.188.221.83 --port=13306
         # cat tests/a.txt
