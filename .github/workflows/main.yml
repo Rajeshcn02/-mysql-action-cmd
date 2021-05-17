@@ -17,5 +17,5 @@ jobs:
         run: |
           pwd
           mysql --version
-          mysql -h 35.188.221.83 -u root -p rajesh@123
+          ping 35.188.221.83
         # cat tests/a.txt
