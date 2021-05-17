@@ -17,5 +17,5 @@ jobs:
         run: |
           pwd
           mysql --version
-          mysql -h 104.155.173.97 -u root -p rajesh@123
+          mysql -h 35.188.221.83 -u root -p rajesh@123
         # cat tests/a.txt
