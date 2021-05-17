@@ -17,5 +17,6 @@ jobs:
         run: |
           pwd
           mysql --version
-          mysql --host=35.188.221.83 --port=13306
+          mysql --host=35.188.221.83 --user=root --password rajesh@123
+       
         # cat tests/a.txt
